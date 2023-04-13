@@ -1,0 +1,2 @@
+# auraportfolio
+static web page
