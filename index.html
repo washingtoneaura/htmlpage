@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Test</title>
+        <style>
+            .sticky-header{
+                background-color:blueviolet;
+                padding: 0px;
+                position: -webkit-sticky;
+                position: sticky;
+                top: 0;
+                align-items: center;
+                align-content: center;
+            }
+            .container1{
+                display: flex;
+                align-items: center;
+                color: aqua;
+                background-color: chocolate;
+                align-content: center;
+            }
+            .image1{
+                flex: 0 0 200px;
+                padding-right: 20px;
+            }
+
+            .text1{
+                flex: 1;
+                font-size: xx-large;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+
+        <div class="sticky-header" id="header" style="background-color:blueviolet; width: 100%; height: 50px; font-size: 250%; text-align: center;">
+            <a href = "home.html" target = "_self" style="text-decoration: none;">Home</a> &nbsp &nbsp
+            <a href="#footer" style="text-decoration: none;">Education</a>&nbsp &nbsp
+            <a href="#about" style="text-decoration: none;">About</a>
+        </div>
+
+        <div class="container1" id="home">         
+            <div class="image1">
+                <img src="washy.jpg" width="250" height="250"/>
+            </div>
+
+            <div class="text1">
+                <h1>WASHINGTONE AURA</h1>
+                <p style="font-size: 120%; color:red;">Web Master</p>
+            </div>
+        </div>
+        <br>
+            <h1 style="color:crimson; text-align:center;">Dividing HTML Page by using div Tag</h1>
+        <div id="about" style="background-color: red; width: 25%; height: 550px; float:left;">  
+            This is the first division to have a vertical alignment.  
+        </div>  
+              
+        <div style="background-color: yellow; width:50%; height: 550px; float:left;">  
+              This is the second division to have a vertical alignment.  
+        </div>  
+
+        <div style="background-color: blue; width:25%; height: 550px; float:left;">  
+                        This is the third division to have a vertical alignment.  
+                              
+        </div>  
+
+        <section>
+            <h2>WWF's Symbol</h2>
+            <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+        </section>
+                    
+        <div id="footer" style="background-color: red; width: 100%; height: 50px; float:left;">  
+                        This is the first division to have a vertical alignment.  
+        </div>  
+    </div>
+    </body>
+</html>
